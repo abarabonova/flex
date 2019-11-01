@@ -156,3 +156,20 @@ nav{
   mask: url(../img/ic4.svg);
   -webkit-mask: url(../img/ic4.svg);
 }
+
+
+.nav__btn{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: blue;
+  padding: 16px 55px;
+  text-decoration: none;
+  margin-top: 48px;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav__btn:hover{
+  filter: brightness(1.25);
+}
