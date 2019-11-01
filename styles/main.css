@@ -173,3 +173,44 @@ nav{
 .nav__btn:hover{
   filter: brightness(1.25);
 }
+
+
+/*
+ДРУЗЬЯ
+*/
+
+aside{
+  display: flex;
+  background: rgba(25, 25, 25, 0.05);
+  border-radius: 12px;
+  transform: translateY(-150%);
+  width: 320px;
+  height: 304px;
+  padding-left: 16px;
+}
+
+aside ul li:first-child{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 16px 20px 0;
+
+}
+aside ul li:last-child{
+  color: #0038FF;
+  font-size: 14px;
+  padding: 30px 0 11px 0px;
+}
+
+.user__info{
+  border-bottom: 1px solid var(--light-gray);
+  padding-bottom: 8px;
+}
+
+.user__info__name{
+  font-weight: bold;
+}
+
+aside ul li img{
+  width: 40px;
+  right: calc((100vw - 600px) / 2);
+}
