@@ -21,7 +21,7 @@ main {
   border-right: 1px solid var(--light-gray);
 }
 
-main header{
+.main__header{
   font-size: 18px;
   font-weight: bold;
   padding: 16px;
@@ -29,5 +29,66 @@ main header{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--light-gray);
+}
 
+
+.tweet{
+  display: flex;
+  padding: 24px 32px 16px 24px;
+}
+
+.tweet__ava{
+  width: 56px;
+  height: 56px;
+  margin-right: 16px;
+}
+
+.tweet__body__header *{
+  /* margin-left: 16px; */
+}
+
+.tweet__body__header{
+  display: flex;
+  align-items: center;
+}
+
+.tweet__body__header h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tweet__body__header a{
+  color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.tweet__body__header a:hover{
+  text-decoration: underline;
+}
+
+.tweet__body p{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 0 16px;
+}
+
+.tweet__body__actions{
+  display: flex;
+
+}
+
+
+.tweet__body__actions li{
+  padding-top: 15px;
+  margin-right: 84px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tweet__body__actions li span{
+  position: absolute;
+  left: 28px;
 }
