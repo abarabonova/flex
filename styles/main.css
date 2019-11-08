@@ -220,7 +220,7 @@ aside ul li img{
 
 
 nav{
-  left: calc((100px - 840px)/2)
+  left: calc((100px - 840px)/2);
   /* padding: 16px 4px 0 0;
   /* left: calc((100vw - 750px) / 2); */
   /* transform: translate(-350%); */
@@ -269,9 +269,22 @@ margin-top: 16px;
 
 main {
 margin: 0px;
-
+}
 }
 
 
+@media (max-width: 768px) {
 
+nav{
+  left: calc((100px - 664px)/2);
+  transform: none;
+}
+
+aside{
+  display: none;
+}
+
+.wrapper{
+  justify-content: center;
+}
 }
