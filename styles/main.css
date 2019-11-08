@@ -270,6 +270,11 @@ margin-top: 16px;
 main {
 margin: 0px;
 }
+
+.flooter__span{
+  display: none;
+}
+
 }
 
 
@@ -286,6 +291,9 @@ aside{
 
 .wrapper{
   justify-content: center;
+}
+.flooter__span{
+  display: none;
 }
 }
 
@@ -305,7 +313,7 @@ main{
 
 .tweet{
   display: flex;
-  padding: 16px;
+  margin-top: 20px;
 }
 
 .tweet__ava{
@@ -335,6 +343,42 @@ main{
 
 aside{
   display: none;
+}
+
+
+
+.main__header{
+  display: none;
+}
+
+.flooter__span{
+height: 60px;
+}
+
+.span__header{
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 0 19px 16px;
+  position: relative;
+}
+
+.flooter__span__li{
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 30px;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 19px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.flooter__span__border{
+
 }
 
 }
