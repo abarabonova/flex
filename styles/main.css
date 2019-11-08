@@ -216,7 +216,7 @@ aside ul li img{
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width:1024px) and (max-width: 1200px) {
 
 
 nav{
@@ -273,7 +273,7 @@ margin: 0px;
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
 nav{
   left: calc((100px - 664px)/2);
@@ -287,4 +287,54 @@ aside{
 .wrapper{
   justify-content: center;
 }
+}
+
+@media (min-width:320px) and (max-width: 599px) {
+
+nav{
+  left: 0;
+}
+
+.wrapper{
+  margin: 0;
+}
+
+main{
+  width: 100vw;
+}
+
+.tweet{
+  display: flex;
+  padding: 16px;
+}
+
+.tweet__ava{
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+.tweet__body p{
+  font-size: 14px;
+  /* padding: 8px 0 16px; */
+  line-height: 18px;
+}
+
+.tweet__body__header{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tweet__body__actions{
+  justify-content: space-between;
+}
+
+.tweet__body__actions li{
+  margin: 0;
+}
+
+aside{
+  display: none;
+}
+
 }
