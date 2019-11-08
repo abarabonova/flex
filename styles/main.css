@@ -214,3 +214,62 @@ aside ul li img{
   width: 40px;
   right: calc((100vw - 600px) / 2);
 }
+
+
+@media (max-width: 1024px) {
+
+nav{
+  /* padding: 16px 4px 0 0;
+  /* left: calc((100vw - 750px) / 2); */
+  /* transform: translate(-350%); */
+}
+
+nav a h4{
+  display: none;
+}
+
+.nav__menu li a{
+  padding: 16px 0;
+}
+
+.nav__btn{
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.nav__icon {
+  background-image: url(img/r.png);
+  width: 22px;
+  height: 22px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-size: cover;
+}
+.wrapper{
+  display: flex;
+  margin-left: 64px;
+}
+
+aside{
+  position: static;
+  transform: none;
+}
+
+aside ul{
+margin-left: 16px;
+margin-top: 16px;
+}
+
+main {
+margin: 0px;
+
+}
+
+
+
+}
