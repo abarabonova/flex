@@ -81,6 +81,8 @@ main {
 }
 
 
+
+
 .tweet__body__actions li{
   padding-top: 15px;
   margin-right: 84px;
@@ -313,7 +315,7 @@ main{
 
 .tweet{
   display: flex;
-  margin-top: 20px;
+  padding: 18px 32px 16px 24px;
 }
 
 .tweet__ava{
@@ -331,6 +333,10 @@ main{
 .tweet__body__header{
   flex-direction: column;
   align-items: flex-start;
+}
+
+.tweet__body__header a {
+  padding: 1px 0;
 }
 
 .tweet__body__actions{
@@ -352,7 +358,7 @@ aside{
 }
 
 .flooter__span{
-height: 60px;
+height: 84px;
 }
 
 .span__header{
@@ -373,12 +379,6 @@ height: 60px;
   top: 30px;
   align-items: center;
   width: 100%;
-  padding-bottom: 19px;
+  padding-bottom: 12px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-}
-
-.flooter__span__border{
-
-}
-
 }
