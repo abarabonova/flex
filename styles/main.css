@@ -382,3 +382,22 @@ height: 84px;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
+
+.flooter__span__border{
+  background: #0038FF;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-image: url(img/pen.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+}
